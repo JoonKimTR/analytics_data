@@ -1,0 +1,8 @@
+
+# Core dependencies for qa/alert.py
+pandas>=2.0
+snowflake-connector-python>=3.10
+python-dotenv>=1.0
+
+# Needed for DataFrame fetching from Snowflake (fetch_pandas_all)
+pyarrow>=14.0
